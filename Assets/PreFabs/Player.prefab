@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8658740471148437383}
   - component: {fileID: 4260684886734286277}
   - component: {fileID: 4402989141517699720}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -127,7 +127,7 @@ Rigidbody:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
@@ -154,6 +154,8 @@ MonoBehaviour:
   starsUI: {fileID: 0}
   elapsedTime: 0
   timeUI: {fileID: 0}
+  canShoot: 0
+  projectilePrefab: {fileID: 5508087008857635400, guid: 0867a34df730bd845bf22daaca1b841d, type: 3}
 --- !u!1 &7961832804785379023
 GameObject:
   m_ObjectHideFlags: 0

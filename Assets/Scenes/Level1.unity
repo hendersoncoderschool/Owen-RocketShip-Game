@@ -1494,6 +1494,10 @@ PrefabInstance:
       propertyPath: starsUI
       value: 
       objectReference: {fileID: 497002277}
+    - target: {fileID: 4402989141517699720, guid: 491feed7df2d6c14e9b55b5f0107762b, type: 3}
+      propertyPath: canShoot
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
